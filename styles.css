@@ -1,0 +1,71 @@
+.main-block{
+color:darkorange; 
+font-family: Arial; 
+font-size: 33px; 
+font-weight: bold; 
+margin-bottom:40px
+}
+
+#css-test{
+	background-color: yellow;
+	width: 70%;
+	height: 300px;
+	position: relative;
+	padding:21px;
+	padding-top:70px;
+}
+@media (min-width:800px){
+	#css-test{
+		background-color: green;
+		width: 40%;
+	}
+}
+@media (min-width:1800px){
+	#css-test{
+		background-color: orange;
+		width: 300px;
+	}
+}
+
+.anim{
+  animation: changeColor 5s infinite alternate;
+}
+@keyframes changeColor {
+  0%   { background-color: yellow; }
+  50%  { background-color: red; }
+  100% { background-color: purple; }
+}
+.main-block div{
+	font-size: 23px; 
+	color:green;
+}
+
+#user-form{
+	width   : 40%;
+	padding : 33px 0;
+	border  : 2px rgba(14, 130, 0, 1) solid;
+	margin  : 20px 0;
+	background-color: rgba(214, 250, 200, 1);
+	
+}
+.input-wrap{
+	padding: 10px 5px;
+}
+
+.resort-button-wrap{
+	margin: 40px auto;
+}
+.resort-button{
+	width: 300px;
+	padding : 4px;
+	background-color: darkcyan;
+	color:#ffffff;
+	text-align: center;
+	cursor : pointer;
+	border : 1px darkcyan solid;
+	border-radius : 5px;
+}
+.resort-button:hover{
+	background-color: #ffffff;
+	color:darkcyan;
+}
