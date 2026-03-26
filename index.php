@@ -52,7 +52,7 @@ $result_1 = $conn->query($sql_1);
 				Ще раз Привіт! 
 			</div>
 		
-			<button onclick="StartAnimation();">Почати анімацію</button>
+			<button onclick="StartAnimation();">Розочати анімацію</button>
 		</div>
 		<div  class="col-md-9 col-lg-6">	
 		
