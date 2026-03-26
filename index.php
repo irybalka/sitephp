@@ -27,7 +27,7 @@ $result_1 = $conn->query($sql_1);
 						while($row = $result->fetch_assoc()) {
 				?>
 				<div>
-					Добрий день <?= $row['name'] ?>! твій вік <?= $row['age']?> група <?= $row['groupp']?>
+					Добрий ранок <?= $row['name'] ?>! твій вік <?= $row['age']?> група <?= $row['groupp']?>
 				</div>
 				<?php 
 					}}	
@@ -52,7 +52,7 @@ $result_1 = $conn->query($sql_1);
 				Ще раз Привіт! 
 			</div>
 		
-			<button onclick="StartAnimation();">Розочати анімацію</button>
+			<button onclick="StartAnimation();">Почати анімацію</button>
 		</div>
 		<div  class="col-md-9 col-lg-6">	
 		
