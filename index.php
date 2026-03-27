@@ -27,7 +27,7 @@ $result_1 = $conn->query($sql_1);
 						while($row = $result->fetch_assoc()) {
 				?>
 				<div>
-					Доброго раночку <?= $row['name'] ?>! твій вік <?= $row['age']?> група <?= $row['groupp']?>
+					Привіт <?= $row['name'] ?>! твій вік <?= $row['age']?> група <?= $row['groupp']?>
 				</div>
 				<?php 
 					}}	
